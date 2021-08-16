@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form>
+        <h1>Registration form</h1>
+        <Div>
+            <label>First Name: *</label>
+            <input type="text" name="first name" placeholder="Your first name">
+        </Div>
+        <Div>
+            <label>Last Name: *</label>
+            <input type="text" name="last name" placeholder="Your last name">
+        </Div>
+        <Div>
+            <label>Email Address: *</label>
+            <input type="text" name="email Address" placeholder="Your email">
+        </Div>
+        <Div>
+            <label>Password: *</label>
+            <input type="password" name="password" placeholder="Password">
+        </Div>
+        <Div>
+            <label>Confirm Password: *</label>
+            <input type="password" name="passwordC" placeholder="Password">
+        </Div>
+        <Div>
+            <label>Birthday: </label>
+            <input type="date" name="birthdate" >
+        </Div>
+        <div>
+            <label>Gender Identity:</label>
+        </div>
+        <Div>
+            <input type="radio" name="gender" value="male" id = "male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" value="female" id = "female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" value="nonb" id = "nonb">
+            <label for="nonb">Non-binary</label>
+
+            <input type="radio" name="gender" value="nona" id = "nona">
+            <label for="nona">I prefer not to answer</label>
+        </Div>
+        <div>
+            <label>A short description about myself:</label>
+        </div>
+        <div>
+            <textarea name="aboutMe" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <label>Favorite Language: </label>
+            <select name="language">
+                <option>JavaScript</option>
+                <option>Java</option>
+                <option>Pyhton</option>
+                <option>CSS</option>
+                <option>HTML</option>
+                <option>English</option>
+            </select>
+        </div>
+        <Div>
+            <input type="checkbox">
+            <label >Yes, I would like to receive periodic email updates</label>
+        </Div>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <p>* Indicates a required field</p>
+
+    </form>
+
+
+</body>
+</html>
